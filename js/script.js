@@ -130,7 +130,6 @@ function MoreTemplate(base) {
         flags: { png: pngs, svg: svgs },
         independent,
         landlocked,
-        languages: { spa },
         name: { common, official, nativeName },
         population,
         postalCode: { format, regex },
@@ -163,7 +162,6 @@ function MoreTemplate(base) {
             <i>Landlocked:${landlocked}</i>
           </div>
           <div>
-            <i>Language:${spa}</i>
             <i>${common} </br>${official}</i>
             <i>Population:${population}</i>
             <i>PostalCode:</br>Format:${format}</br>Regex:${regex}</i>
